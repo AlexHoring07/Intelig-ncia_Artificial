@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Cat",
-                afirmacao: "Correto. "
+                afirmacao: "A língua Inglesa e a Programação, geralmente andam junto, pois muitas linguagens de programação são escritas em inglês e ter uma noção básica de Inglês é essencial para se tornar um grande programador no futuro. Por isso que é muito cobrado estudar Inglês, não só por ser nossa segunda língua mas também pois para diversas áreas de trabalho, é dado um ênfase para quem tem noção básica de Inglês pois geralmente se destacam e vão melhor. Esse site é para te mostrar que o Inglês e a Programação são áreas excelentes de trabalho e que sim, podem e andam juntos."
             },
             {
                 texto: "Dog",
-                afirmacao: "Errado."
+                afirmacao: ""
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "House Sweet House",
-                afirmacao: "Errado."
+                afirmacao: ""
             },
             {
                 texto: "Home Sweet Home",
-                afirmacao: "Correto."
+                afirmacao: ""
             }
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Boa Noite",
-                afirmacao: "Errado."
+                afirmacao: ""
             },
             {
                 texto: "Bom Dia",
-                afirmacao: "Correto."
+                afirmacao: ""
             }
         ]
     },
@@ -49,11 +49,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Programmation",
-                afirmacao: "Correto, é a matéria que o professor Rafael da aula."
+                afirmacao: ""
             },
             {
                 texto: "Robotics",
-                afirmacao: "Não, porque é a matéria que o professor Thadeu dá aula."
+                afirmacao: ""
             }
         ]
     },
@@ -62,11 +62,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "3° Ano E",
-                afirmacao: "Porquê é a melhor turma do professor e é a que ele mais se diverte."
+                afirmacao: ""
             },
             {
                 texto: "3° Ano E",
-                afirmacao: "Porquê é a melhor turma do professor e é a que ele mais se diverte."
+                afirmacao: ""
             }
         ]
     },
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Sobre tudo isso...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
